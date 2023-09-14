@@ -5,7 +5,7 @@
     // Detect header location
     const currentUrl = window.location;
     
-    if(currentUrl.pathname == baseUrl + '/index.html')
+    if(currentUrl.pathname == baseUrl + '/index.html' || currentUrl.pathname == baseUrl + '/')
     {
         getCountryByGeolocation()
     }
