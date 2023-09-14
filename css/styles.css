@@ -1,0 +1,57 @@
+#world-img {
+    width: 16rem;
+    margin-top: 2rem;
+}
+.mi-navbar {
+    height: 5rem;
+    padding: 1rem;
+    box-shadow: 10px 5px 5px #dadada;
+}
+.logo {
+    font-family: 'Helvetica', black;
+    font-size: 1.5rem;
+}
+.logo > span {
+    font-family: 'Redressed', cursive;
+    font-size: 2rem;
+}
+nav {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.flex-cont {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a {
+    text-decoration: none;
+    color: #081133;
+}
+.country-name {
+    margin-bottom: 3rem;
+}
+#profile-pic {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%
+}
+.profile {
+    text-align: center;
+    font-weight: black;
+    color: #024ebe;
+}
+.social a {
+    margin-right: .5rem;
+    opacity: 50%;
+    transition: opacity 1s;
+    transition-timing-function: ease;
+}
+.social a:hover {
+    margin-right: .5rem;
+    opacity: 100%;
+}
+#country-fulldetails {
+    display: none;
+}
