@@ -1,7 +1,7 @@
 (function ( ) {
     
-    baseUrl = '/sofia/homepage'
-
+    baseUrl = '/countries-info'
+    
     // Detect header location
     const currentUrl = window.location;
     
